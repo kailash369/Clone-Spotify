@@ -3,7 +3,6 @@ body {
     margin: 0;
     background-color: #000;
     color: #fff;
-    /* overflow: hidden; */
 }
 .main{
     display: flex;
@@ -21,10 +20,9 @@ body {
 .main-content{
     background-color: #121212;
     flex: 1;
-    border-radius: 1rem; /*16px*/
+    border-radius: 1rem; 
     overflow: auto;
     padding: 0 1.5rem 0 1.5rem;
-    /* height: 100vh; */
 }
 
 .music-player{
@@ -217,17 +215,14 @@ a{
 
 .album{
     width: 25%;
-    /* background-color: pink; */
 }
 
 .player{
     width: 50%;
-    /* background-color: orange; */
 }
 
 .controls{
     width: 25%;
-    /* background-color: green; */
 }
 
 .player-controls{
